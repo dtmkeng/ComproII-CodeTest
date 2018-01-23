@@ -31,7 +31,7 @@ void printO(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||j==1||i==5||j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -43,7 +43,7 @@ void print1(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(j==3)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -55,7 +55,7 @@ void print2(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i<=5/2||i==4&&j==1)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -67,7 +67,7 @@ void print3(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i<=5/2||i==4&&j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -79,7 +79,7 @@ void print4(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(j==1&&i<=5/2||i==3||j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -91,7 +91,7 @@ void print5(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i==4||i==2&&j==1)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -103,7 +103,7 @@ void print6(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i==4||i==2&&j==1||j==1&&i==4)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -115,7 +115,7 @@ void print7(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -127,7 +127,7 @@ void print8(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i==4||i==2&&j==1||j==1&&i==4||i==2&&j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
@@ -139,7 +139,7 @@ void print9(int n){
 	for(i=1;i<=5;i++){
 		for(j=1;j<=5;j++){
 			if(i==1||i==5||i==5/2+1||j==5&&i==4||i==2&&j==1||i==2&&j==5)
-				printf("0");
+				printf("%d",n);
 			else
 				printf(" ");
 		}
