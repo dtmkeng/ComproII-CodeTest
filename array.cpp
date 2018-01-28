@@ -184,8 +184,7 @@ void roteteRight(int a[],int len,int cnt){
 		temp=a[len-1];
 		for(j=len-1;j>=0;j--)
 			a[j+1]=a[j];
-		a[0]=temp;
-		
+		a[0]=temp;	
 	}
 }
 
